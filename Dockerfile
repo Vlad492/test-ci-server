@@ -5,6 +5,6 @@ WORKDIR /usr/src/app/
 
 COPY . /usr/src/app/
 
-EXPOSE 80
+EXPOSE 443
 
 ENTRYPOINT ["node", "index"]
