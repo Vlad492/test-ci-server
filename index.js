@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-app.listen(80,()=>console.log("Server has been started"))
+app.listen(443,()=>console.log("Server has been started"))
 
 app.get('/',(req,res)=>{
     res.send(new Date().toLocaleDateString())
